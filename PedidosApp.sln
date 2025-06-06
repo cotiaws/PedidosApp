@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosApp.API", "PedidosApp.API\PedidosApp.API.csproj", "{A7C2A1BD-F2AD-4778-915E-BD7482D54F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosApp.API.Tests", "PedidosApp.API.Tests\PedidosApp.API.Tests.csproj", "{0FC10CEC-5167-4C23-A4C6-F710958E1F4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C2A1BD-F2AD-4778-915E-BD7482D54F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C2A1BD-F2AD-4778-915E-BD7482D54F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C2A1BD-F2AD-4778-915E-BD7482D54F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C2A1BD-F2AD-4778-915E-BD7482D54F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC10CEC-5167-4C23-A4C6-F710958E1F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC10CEC-5167-4C23-A4C6-F710958E1F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC10CEC-5167-4C23-A4C6-F710958E1F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC10CEC-5167-4C23-A4C6-F710958E1F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
