@@ -13,20 +13,26 @@ namespace PedidosApp.API.Controllers
             return StatusCode(501); //Not Implemented
         }
 
-        [HttpPut]
-        public async Task<IActionResult> Put()
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(Guid id)
         {
             return StatusCode(501); //Not Implemented
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> Delete()
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
         {
             return StatusCode(501); //Not Implemented
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
+        {
+            return StatusCode(501); //Not Implemented
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(Guid id)
         {
             return StatusCode(501); //Not Implemented
         }
